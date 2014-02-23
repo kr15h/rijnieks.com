@@ -1,0 +1,190 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
+
+body {
+	background: black;
+	margin: 0;
+	margin: 20px 10px;
+	padding:0;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #cccccc;
+}
+
+h1, h2, h3, h4 {
+	margin: 0;
+	padding: 0;
+	color: #ffffff;
+	font-family: 'Roboto Slab', serif;
+	font-weight: normal;
+}
+
+h1 {
+	border-bottom: 1px dotted #ffffff;
+	padding-bottom: 5px;
+	font-size: 30px;
+	margin: 0 0 10px 0;
+}
+
+h2 {
+	font-size: 20px;
+	padding-bottom: 5px;
+	border-bottom: 1px dotted #ffffff;
+	margin: 0 0 10px 0;
+}
+
+h3 {
+	font-size: 16px;
+	line-height: 20px;
+	padding-bottom: 10px;
+	margin: 0;
+}
+
+h4 {
+	font-size: 20px;
+	color: #cccccc;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	margin-bottom:5px;
+}
+
+a {
+	color: #ffffff;
+	text-decoration: none;
+	border-bottom: 1px dotted #ffffff;
+}
+
+a:hover {
+	color: #dddddd;
+	border-bottom: 1px dotted #dddddd;
+}
+
+.wrapper {
+	min-width: 310px;
+	max-width: 960px;
+	margin: 0 auto;
+	vertical-align: top;
+}
+
+.picture {
+	vertical-align: top;
+	display: inline-block;
+	width: 320px;
+	float: left;
+}
+
+.picture img {
+	width: 310px;
+	height: 310px;
+	margin: 5px;
+	vertical-align: bottom; /* hack to remove extra space in the bottom of the img */
+}
+
+.picture .caption {
+	text-align: center;
+	font-size: 12px;
+	color: #666666;
+	border: 1px solid #222222;
+	padding: 5px;
+}
+
+.picture .caption a {
+	color: #999999;
+	border: none;
+}
+
+.picture .caption a:hover {
+	color: #666666;
+	border: none;
+}
+
+.description {
+	vertical-align: top;
+	display: inline-block;
+	max-width: 960px;
+	min-width: 640px;
+	line-height: 18px;
+	margin-bottom: 20px;
+}
+
+.description-inner {
+	margin-left: 320px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.projects {
+
+}
+
+.projects-item {
+	max-width: 320px;
+	font-size: 11px;
+	line-height: 14px;
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 10px;
+}
+
+.projects-item-img {
+	float: left; 
+}
+
+.projects-item-img img {
+	width: 140px;
+	height: 140px;
+	margin: 5px;
+	vertical-align: bottom;
+}
+
+.projects-item-img a {
+	border: none;
+}
+
+.projects-item-img a img{
+	border: none;
+}
+
+.projects-item-header, .projects-item-desc {
+	margin-left: 155px;
+	padding-right: 10px;
+}
+
+.projects-item-header {
+	margin-top: 5px;
+}
+
+@media all and (max-width: 640px) {
+	.description {
+		vertical-align: top;
+		display: block;
+		max-width: 640px;
+		min-width: 320px;
+	}
+
+	.description-inner {
+		margin-left: 0;
+		padding: 0;
+		padding-right: 10px;
+	}
+
+	.picture {
+		vertical-align: top;
+		display: inline-block;
+		width: 160px;
+		float: none;
+		margin-bottom: 10px;
+	}
+
+	.picture img {
+		width: 150px;
+		height: 150px;
+		margin: 5px;
+		vertical-align: bottom; /* hack to remove extra space in the bottom of the img */
+	}
+}

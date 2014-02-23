@@ -1,0 +1,24 @@
+Contents of rijnieks.lv 2013 Main Page
+
+Krisjanis Rijnieks
+
+Hello! I am a human being that does a lot of interesting things. Unfortunately I have just one life, one head and two hands and that is not enough to be able to do everything that I would like to. However right now I'm focusing on my MA studies in the New Media program of the Helsinki Media Lab, but in the meantime I do different freelance projects that include:
+ - graphic design
+ - web design
+ - interface design
+ - creative coding
+ - physical computing
+ - and more...
+
+Feel free to contact me if you have something to offer, questions or you want to discuss one of the mentioned topics.
+mail: krisjanis@rijnieks.lv
+linkedIn: krisjanis.rijnieks
+
+Latest projects:
+ - Cinder: Begin Creative Coding
+	Cinder is one of the most powerful open-source creative coding frameworks available on the Internet. This book is a trial to make the learning curve of the framework less steep. Buy it on Amazon!
+ - PixelTrip
+	Augmented reality iOS application for annual art festival in Cesis, Latvia. 
+ - Survival Kit…
+
+Link to blog, if ready
