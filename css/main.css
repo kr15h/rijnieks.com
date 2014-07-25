@@ -19,8 +19,6 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-	border-bottom: 1px dotted #ffffff;
-	padding-bottom: 5px;
 	font-size: 30px;
 	margin: 0 0 10px 0;
 }
@@ -47,6 +45,16 @@ h4 {
 p {
 	margin: 0;
 	padding: 0;
+}
+
+.header {
+	border-bottom: 1px dotted #ffffff;
+	padding-bottom: 15px;
+	margin: 0 0 10px 0;
+}
+
+.header p {
+	font-size: 18px;
 }
 
 li {
