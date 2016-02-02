@@ -168,6 +168,11 @@ a:hover {
 }
 
 @media all and (max-width: 640px) {
+	
+	body {	
+		margin: 20px;
+	}
+
 	.description {
 		vertical-align: top;
 		display: block;
@@ -184,15 +189,16 @@ a:hover {
 	.picture {
 		vertical-align: top;
 		display: inline-block;
-		width: 160px;
+		width: 100%;
 		float: none;
-		margin-bottom: 10px;
+		margin-bottom: 20px;
+		margin-top: 15px;
 	}
 
 	.picture img {
-		width: 150px;
-		height: 150px;
-		margin: 5px;
+		width: 100%;
+		height: auto;
+		margin: 0;
 		vertical-align: bottom; /* hack to remove extra space in the bottom of the img */
 	}
 }
