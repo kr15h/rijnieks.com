@@ -62,14 +62,14 @@ li {
 }
 
 a {
-	color: #ece03f;
+	color: #eeeeee;
 	text-decoration: none;
-	border-bottom: 1px dotted #ece03f;
+	border-bottom: 1px dotted #eeeeee;
 }
 
 a:hover {
-	color: #cfc437;
-	border-bottom: 1px dotted #cfc437;
+	color: #aaaaaa;
+	border-bottom: 1px dotted #aaaaaa;
 }
 
 .wrapper {
