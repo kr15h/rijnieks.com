@@ -154,6 +154,10 @@ a:hover {
 	border: none;
 }
 
+.projects-item-img a:hover {
+	opacity: 0.75;
+}
+
 .projects-item-img a img{
 	border: none;
 }
