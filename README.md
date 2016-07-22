@@ -1,4 +1,3 @@
-rijnieks.lv
-===========
+# rijnieks.com
 
 Personal website GitHub repo.
