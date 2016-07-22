@@ -1,3 +1,3 @@
 # rijnieks.com
 
-Personal website GitHub repo.
+Personal website GitHub repo. Now as .com
