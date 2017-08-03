@@ -7,6 +7,7 @@ body {
 	font-size: 18px;
 	line-height: 1.4;
 	color: #cccccc;
+	margin-top: 50px;
 }
 
 h1, h2, h3, h4 {
@@ -55,12 +56,16 @@ a:hover {
 	text-decoration: none;
 }
 
+a img {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
 .container {
 	max-width: 500px;
 }
 
 .introduction {
-	margin-top: 50px;
 	margin-bottom: 50px;
 }
 
