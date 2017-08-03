@@ -1,0 +1,29 @@
+{
+    "head": {
+        "lang": "lv",
+        "endDateTime": "2011-06-30 18:00:00",
+        "ru_link": "./index_ru.html" 
+    },
+    "aliases": {
+        "dienas": "DIENAS",
+        "dienu": "DIENU",
+        "fantastiskais": "FANTASTISKAIS",
+        "autolizings": "AUTOLĪZINGS",
+        "footer_line_01": "Aizņemies atbildīgi, izvērtējot savas iespējas apmaksāt līzingu!<br>Attēli ir informatīva rakstura un piedāvātie auto var atšķirties no attēlā redzamajiem.",
+        "footer_line_02": "*Piemēram, ja Tu finanšu līzingā pērc auto par EUR 8000, tad līzinga periods ir 60 mēneši, pirmā iemaksa EUR 1600 (20%), komisijas maksa par darījuma noformēšanu EUR 120 (1,5%), līzinga kopējā summa EUR 6400, kopējā summa perioda beigās EUR 8674,19, procentu likmes mainīgās daļas – 1,327% trīs mēnešu EURIBOR (18.04.2011.), un procentu likmes nemainīgās daļas – 2,00% gadā. Gada procentu likme ir 4,17% un ikmēneša maksājums EUR 115,93.",
+        "body_text": "Piesakies autolīzingam ar fantastiski zemu procentu likmi – 2%* un īpašiem piedāvājumiem no auto saloniem. Dāvanā saņemsi arī Statoil extra karti ar lielisku atlaidi katram degvielas litram.",
+        "vw_link": "http://www.vw-riga.lv/",
+		"vw_act_link":"http://www.vw-riga.lv/info/serviss/lizings/fantastiskais-autolizings",
+        "mazda_link": "http://www.mazda.lv/",
+		"mazda_act_link": "http://www.inchcape.lv/news/fantastiskais_autolizings/",
+        "ford_link": "http://www.ford.lv/",
+		"ford_act_link": "http://www.ford.lv/lv/news/view/Fantastiskais-auto-lizings",
+        "opel_link": "http://opel.adamauto.lv/lat/opel-modeli/opel-vieglas-automasinas/opel_astra_5_durvis/",
+        "peugeot_link": "http://www.autohalle.lv/public/index.html",
+        "skoda_link": "http://www.skoda.lv",
+        "dnb_link": "http://www.dnbnordlizings.lv/lv/tools/consultation-private/", 
+		"piezvani": "Piezvani: 1880",
+		"peugeot_act_link":"http://www.autohalle.lv/public/akcija5008.html",
+		"opel_act_link":"http://www.adamauto.lv/lat/akcijas/?doc=698&ins_tpl=6"
+    }
+}

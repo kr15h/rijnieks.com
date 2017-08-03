@@ -1,0 +1,29 @@
+{
+	"head": {
+		"lang":"ru",
+		"endDateTime":"2011-06-30 18:00:00",
+		"lv_link":"./index.html"
+	},
+	"aliases": {
+		"dienas":"ДНЕЙ",
+		"dienu":"ДЕНЬ",
+		"fantastiskais":"ФАНТАСТИЧЕСКИЙ",
+		"autolizings":"АВТОЛИЗИНГ",
+		"footer_line_01":"Занимай ответственно, оценив свои возможности оплачивать лизинг!<br>Фотографии носят информативный характер и предлагаемые автомобили могут отличаться от изображенных на фотографиях.",
+		"footer_line_02":"*Например, если Ты в финансовый лизинг приобретаешь автомобиль за 8 000 EUR, в этом случае период лизинга составляет 60 месяцев. Первая выплата 1 600 EUR (20%), комиссионная плата за оформление составит 120 EUR (1,5%), общая сумма лизинга 6 400 EUR, общая сумма по окончании периода - 8674,19 EUR, переменная часть процентной ставки – 1,327% трехмесячный EURIBOR (18.04.2011), постоянная часть процентной ставки – 2,00% в год. Годовая процентная ставка составляет 4,17% и ежемесячный платеж = 115,93 EUR.", 
+		"body_text":"Оформи автолизинг с фантастически низкой процентной ставкой - 2%* и особыми предложениями от автосалонов.<br>Получи в подарок карту Statoil extra, и пользуйся отличными скидками на каждый литр бензина.",
+		"vw_link":"http://www.vw-riga.lv/",
+		"vw_act_link":"http://www.vw-riga.lv/info/serviss/lizings/fantastiskais-autolizings",
+		"mazda_link":"http://www.mazda.lv/",
+		"ford_link":"http://www.ford.lv/ru/",
+		"ford_act_link": "http://www.ford.lv/lv/news/view/Fantastiskais-auto-lizings",
+		"mazda_act_link": "http://www.inchcape.lv/news/fantastiskais_autolizings/",
+		"opel_link":"http://opel.adamauto.lv/rus/opel-models/opel-passenger-cars/opel_astra_5_doors_info/ceni",
+		"peugeot_link":"http://www.autohalle.lv/public/index_ru.html",
+		"skoda_link":"http://www.skoda.lv",
+		"dnb_link":"http://www.dnbnordlizings.lv/ru/tools/consultation-private/",
+		"piezvani": "Позвони: 1880",
+		"peugeot_act_link":"http://www.autohalle.lv/public/akcija5008.html",
+		"opel_act_link":"http://www.adamauto.lv/rus/akcii/?doc=699&ins_tpl=6"
+	}	
+}
