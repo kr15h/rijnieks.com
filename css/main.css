@@ -59,6 +59,8 @@ a:hover {
 a img {
 	margin-top: 10px;
 	margin-bottom: 20px;
+	width: 100%;
+	height: auto;
 }
 
 .container {
