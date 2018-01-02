@@ -56,15 +56,22 @@ a:hover {
 	text-decoration: none;
 }
 
-a img {
-	margin-top: 10px;
-	margin-bottom: 20px;
+img {
 	width: 100%;
 	height: auto;
 }
 
+.hr {
+	font-size: 0;
+	line-height: 0;
+	letter-spacing: 0;
+	border-bottom: 1px dotted #aaaaaa;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
 .container {
-	max-width: 500px;
+	max-width: 768px;
 }
 
 .introduction {
@@ -76,18 +83,24 @@ a img {
 }
 
 .projects-item {
-	margin-bottom: 20px;
-}
-
-.projects-item:last-child {
+	display: block;
 	margin-bottom: 0;
 }
 
-.footer {
-	padding-bottom: 50px;
+.projects-item .image {
+	font-size: 0;
+	line-height: 0;
+	letter-spacing: 0;
+	padding-bottom: 15px;
 }
 
-.footer img{
-	width: 100%;
-	height: auto;
+.projects-item .image a {
+	display: block;
+	border: none;
+}
+
+.footer {
+	padding-top: 15px;
+	padding-bottom: 50px;
+	border-top: 1px dotted #ffffff;
 }
