@@ -1,39 +1,17 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="{{ .Site.LanguageCode }}">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
-	<meta name="apple-mobile-web-app-title" content="Krisjanis Rijnieks">
-	<title>Krisjanis Rijnieks - Creative Technologist</title>
-	<link rel="stylesheet" href="/libs/bootstrap/bootstrap.min.css">
-	<link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
-	<link rel="stylesheet" href="/libs/cssgram/moon.min.css">
-	<link rel="stylesheet" type="text/css" media="all" href="/css/main.css?20180105a" />
+	<title>{{ .Site.Title }} :: {{ .Site.Params.subtitle }}</title>
+	{{ partial "head/meta.html" . }}
+	{{ partial "head/css.html" . }}
 </head>
 <body>
 
 <div class="container">
-	<div class="header">
-		<h1>Krisjanis Rijnieks</h1>
-	</div>
+	{{ partial "header.html" . }}
 
 	<div class="introduction">
-		<p>Krisjanis Rijnieks is a creative technologist working within the intersection between art, design and engineering. He likes to write code in more than one programming language as well as to experiment with digital fabrication and run workshops related to projection mapping. Below is a list of topics you might be interested to discuss with him.</p>
-			
-		<ul>
-			<li>Raspberry Pi and projection mapping</li>
-			<li>Creative coding with openFrameworks</li>
-			<li>Digital fabrication, fab labs and makerspaces</li>
-		</ul>
-
-		<p>Currently Krisjanis spends most of his time developing ofxPiMapper–an open source projection mapping tool for the Raspberry Pi mini-computer. Running workshops and using the software for projects are parts of the game. Follow the <a href="https://www.facebook.com/ofxpimapper/">ofxPiMapper Facebook page</a> for details. Krisjanis is also teaching the Digital Fabrication Studio course at the Aalto Fab Lab in Helsinki. Below is a list of hyperlinks that link to social media profiles Krisjanis keeps maintaining.</p>
-
-		<ul>
-			<li><a href="https://github.com/kr15h">GitHub</a></li>
-			<li><a href="https://www.instagram.com/kriwkrow/">Instagram</a></li>
-			<li><a href="https://twitter.com/kriwkrow">Twitter</a></li>
-			<li><a href="http://www.linkedin.com/in/krisjanisrijnieks">LinkedIn</a></li>
-		</ul>
+		{{ .Content }}
 	</div>
 
 	<div class="projects">

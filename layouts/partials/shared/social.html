@@ -1,0 +1,13 @@
+<div class="social">
+	<ul>
+		<li>
+			<a href="javascript:alert('&copy; Krisjanis Rijnieks 2018')" 
+				title="&copy; {{ .Site.Params.autor }} {{ now.Format "2006" }}">
+				<i class="fa fa-copyright"></i>
+			</a>
+		</li>
+		{{ range .Site.Params.social }}
+			<li><a href="{{ .url }}" title="{{ .title }}" target="_blank"><i class="fa {{ .icon }}"></i></a></li>
+		{{ end }}
+	</ul>
+</div><!-- /.social -->
