@@ -47,7 +47,10 @@ ul {
 	margin-bottom: 20px;
 }
 
-a {
+a,
+a:visited,
+a:focus,
+a:active {
 	color: #eeeeee;
 	text-decoration: none;
 	border-bottom: 1px dotted #eeeeee;
