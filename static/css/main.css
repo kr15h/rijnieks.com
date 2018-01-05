@@ -78,6 +78,28 @@ img {
 	margin-bottom: 50px;
 }
 
+.social ul,
+.social li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.social li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.social li:last-child {
+	margin-right: 0;
+}
+
+.social a {
+	border: none;
+	font-size: 40px;
+	line-height: 1;
+}
+
 .projects {
 	margin-bottom: 50px;
 }
@@ -103,4 +125,5 @@ img {
 	padding-top: 15px;
 	padding-bottom: 50px;
 	border-top: 1px dotted #ffffff;
+	text-align: center;
 }
