@@ -62,6 +62,30 @@ a:hover {
 	text-decoration: none;
 }
 
+a.btn {
+	border-radius: 0;
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+
+a.btn-primary,
+a.btn-primary:visited,
+a.btn-primary:focus,
+a.btn-primary:active {
+	background-color: #010101;
+	color: #eeeeee;
+	border-color: #eeeeee;
+	border-bottom: 1px solid #eeeeee;
+	margin-top: 5px;
+}
+
+a.btn-primary:hover {
+	background-color: #010101;
+	color: #aaaaaa;
+	border-color: #aaaaaa;
+	border-bottom: 1px solid #aaaaaa;
+}
+
 img {
 	width: 100%;
 	height: auto;
@@ -153,9 +177,4 @@ footer .social {
 	line-height: 0;
 	letter-spacing: 0;
 	padding-bottom: 15px;
-}
-
-.projects-item .image a {
-	display: block;
-	border: none;
 }
