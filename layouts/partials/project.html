@@ -1,0 +1,14 @@
+<div class="projects-item row">
+	<div class="image col-sm-6">
+		<img class="moon" src="{{ .Params.image }}" alt="{{ .Title }}">
+	</div>
+	<div class="description col-sm-6">
+		<h3>{{ .Title }}</h3>
+		<p>{{ .Params.short }}</p>	
+		<div class="row">
+			<div class="col-xs-6">
+				<A href="{{ .Params.link }}" target="_blank" class="btn btn-primary btn-block btn-lg">{{ .Params.callToAction }}</a>
+			</div>
+		</div>
+	</div>
+</div>
