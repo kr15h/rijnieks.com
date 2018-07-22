@@ -1,0 +1,17 @@
+@page {
+    margin: 2.5cm;
+    margin-bottom: 1.5cm;
+}
+
+html {
+    font-size: 1cm;
+}
+
+body {
+    background: white;
+    color: black;
+}
+
+.projects-item {
+    page-break-after: always;
+}

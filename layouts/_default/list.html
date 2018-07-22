@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+
+    <title>{{ .Title }}</title>
+    {{ partial "head/meta.html" . }}
+    {{ partial "head/css.html" . }}
+
+</head>
+
+<!-- Page body starts here -->
+
+<body>
+<div class="container">
+
+    <header>
+        <h1>{{ .Title }}</h1>
+        {{ .Content }}
+    </header>
+
+    <main>
+
+        <div class="latest">
+            <h2>Latest article</h2>
+            <div class="item">
+                {{ with .Site.GetPage "section" "blog" }}
+                {{ range first 1 .Pages }}
+                    <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+                    <p class="time">{{ .Date.Format "2 Jan 2006" }}</p>
+                    <p class="summary">{{ .Summary }}</p>
+                    <a href="{{ .Permalink }}">Read more</a>
+                {{ end }}
+                {{ end }}
+            </div>
+        </div>
+
+        <div class="list">
+            <h2>Past Articles</h2>
+            <ul>
+                {{ with .Site.GetPage "section" "blog" }}
+                {{ range after 1 .Pages }}
+                    <li>
+                        <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+                        <p class="time">{{ .Date.Format "2 Jan 2006" }}</p>
+                        <p class="summary">{{ .Summary }}</p>
+                    </li>
+                {{ end }}
+                {{ end }}
+            </ul>
+        </div>
+    </main>
+
+    {{ partial "footer.html" . }}
+
+</div>
+</body>
+
+</html>
