@@ -6,6 +6,6 @@ short: "Short content description ..."
 image: ""
 link: ""
 weight: 0
-buttonLabel: "Watch video"
+callToAction: "Watch video"
 ---
 
