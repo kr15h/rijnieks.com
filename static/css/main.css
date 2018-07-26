@@ -91,7 +91,7 @@ a.btn-primary:focus:hover {
 	border-bottom: 1px solid #aaaaaa;
 }
 
-img {
+img, video {
 	width: 100%;
 	height: auto;
 }
