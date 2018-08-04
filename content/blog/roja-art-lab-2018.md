@@ -74,7 +74,9 @@ ISON Tue 31 Jul 14:46:01 UTC 2018
 
 After I came back from a walk the projector was off. After reading the log file, I found out that the system was on until 16:00. The last boot time before that was 14:43 which means the system was on for **1 hour and 17 minutes**.
 
-The problem here was that I did not know if the battery is full. I got a car battery charger to charge it during the night in order to try out one more time the next day.
+![](../media/roja-art-lab-2018/pump-battery.jpg)
+
+The problem here was that I did not know if the battery is full. I got a car battery charger to charge it during the night in order to try out one more time the next day. The specification of the one I got told me it will take approximately 40 hours to achieve 80% charge.
 
 ## Data
 
@@ -95,7 +97,30 @@ Year    Income      Education   Religion
 2017    0.836357    0.763318    0.443935
 ```
 
-in the data extract above you can see that in years 2009, 2010 and 2011 expenses towards education surpass income. 
+in the data extract above you can see that in years 2009, 2010 and 2011 expenses towards education surpass income. In year 2010 the expenses appear to be the absolute maximum number in the data set.
+
+I used audio samples by [fractal_dimension](https://freesound.org/people/fractal_dimension/sounds/17067/) on Freesound. Because of time limit as for the first iteration I decided to go with plain playback of samples and the change of speed of playback according to normalized data.
+
+Then I wondered whether it would be possible to use a bluetoth speaker to play back the audio. My question was if it is possible to configure that by using command line tools on a Raspberry Pi. I found a [document by GitHub user actuino](https://gist.github.com/actuino/9548329d1bba6663a63886067af5e4cb). The safest option for the moment was to use HDMI connection and play the sound back through the minimal speakers of the projector.
+
+<video width="800" height="450" loop controls>
+  <source src="../media/roja-art-lab-2018/test-before-show.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+Above you can see a video of a test that I did before the show day. One thing that I may improve in future versions of this would be the use of LED's on the back to highlight the shape of the projection surface. 
+
+## Location
+
+Throughout the day the plan for the last day built itself. I decided to set up the object in 3 different locations. One of them would be at the Roja Info Centre, the other at the former fish-related hangar at the sea and the third one near to the Roja Art Lab main venue. I would use power supply from the battery to drive the equipment at the hangar place. It is still charging, but expectations are high.
+
+<video width="800" height="450" loop controls>
+  <source src="../media/roja-art-lab-2018/hangar.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+Above you can see a video from within the former fish production hangar at the sea. I decided to put a video loop here since it contributes much more to the mood of being lost somewhere in the zone.
+
 
 [EN]
 
