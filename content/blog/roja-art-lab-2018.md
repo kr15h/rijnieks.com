@@ -1,6 +1,6 @@
 ---
 title: "Roja Art Lab 2018"
-date: 2018-07-23T12:02:36+03:00
+date: 2018-08-06T12:02:36+03:00
 draft: false
 description: "Roja Art Lab is an annual gathering of international artists in Roja, Latvia. For two weeks they are exploring the context and creating artistic reflections. In this article I will try to summarize my experience at the Roja Art Lab 2018 as I am on the list of 10 participants this time."
 image: "blog/media/roja-art-lab-2018/triangle-a.jpg"
