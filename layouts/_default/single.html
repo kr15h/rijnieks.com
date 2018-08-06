@@ -12,6 +12,7 @@
 <div class="container">
     <main>
         <h1>{{ .Title }}</h1>
+        <p class="Date">Published: {{ .Date.Format "2 Jan 2006" }}</p>
         {{ .Content }}
     </main>
 

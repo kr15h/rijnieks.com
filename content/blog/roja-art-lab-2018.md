@@ -14,9 +14,11 @@ I arrived in Roja on Sunday, July 22. First thing was to visit the Roja Art Lab 
 
 I met a part of other artists that came here for the residency. After a brief small talk it was clear that there may be many options for possible collaboration. After a longer conversation during the opening barbecue, I realized that the plan for most of the participants is to do research during the first week and practical work for the rest of the time.
 
-I was among the majority and was also planning to do research first and decide on what and where to do during the second part of the first week. 
-
 On Monday we met at 12:30 to visit the mayor of Roja–Eva Kārkliņa. We introduced ourselves and could explore the available rooms in the building of the Roja district council office. After lunch we traveled to see the seaside at Melnsils  and the White Dune in Ģipka, all North-West from Roja. Meanwhile Māris showed us the artworks done by participants of previous Roja Art Lab activities.
+
+![Wooden barrel houses at the sea in Melnsils, Latvia](../media/roja-art-lab-2018/beach.jpg)
+
+## Research
 
 After helping to set up the internet connection at Roja Art Lab main venue, I decided to do research. Is there data about Roja available on the internet? What can it tell and what meaning can it convey? 
 
@@ -28,6 +30,8 @@ An interesting turn in terms of planning and organising work was the announcemen
 
 From the artist talks on Tuesday evening, where both of the Karlas (Karla Kracht and Karla Brunet) were presenting their work, I realized where the enthusiasm comes from. Both of the artists have been using projection mapping in their projects in one way or another. They were all excited that Raspberry Pi minicomputer could be used in their artistic practice.
 
+## Exploration
+
 Wednesday was a very warm day and it was hard to find a place for doing computer related work. I decided to take one of my triangle surfaces and walk around to make photos with the surface in different places. Below you can see a shot with the triangle sitting in the sand of the Roja beach and resting against the surrounding vegetation with the Baltic Sea in the background. 
 
 ![Triangle in front of the beach](../media/roja-art-lab-2018/triangle-a.jpg)
@@ -35,8 +39,6 @@ Wednesday was a very warm day and it was hard to find a place for doing computer
 Later I decided to make a field test and found a 10x10cm thick wooden beam that I cut 45deg at the end with a handsaw. I attached one of the triangles to the 45deg cut by using wood screws and dug the other end of the beam into the ground approximately 50cm deep.
 
 ![Triangle attached to the beam in ground](../media/roja-art-lab-2018/triangle-beam-test.jpg)
-
-That worked fine and looked more or less as expected. I realised that single triangle has not enough visual mass and it would be much better if I used all three in the next iteration. 
 
 To close the first development cycle I had to add the projection layer and map it to the surface. I sarted out with an application that I build as an example for my last projection mapping workshop at Fab14. It features 10 rectangles that bounce off the sides of the screen at random speeds. I added a guide drawing feature to lay out the mapping elements virtually first. I used a 500x500px texture with the precise layout of the surface to use for texture mapping. The generated textures are and will be drawn on a 500x500px canvas as well.
 
@@ -48,10 +50,6 @@ Your browser does not support the video tag.
 Next step would be transfer the code to a Raspberry Pi and map it on to a real surface. It is planned today that we go to the Roja Information Center to set up our pop-up exhibition. Since I am leaving for two days on Thursday to run a workshop at the [No Trolls Allowed](https://notrollsallowed.com) hacker camp in Lithuania, I will have to show the other participants how to adjust the mapping if it goes wrong.
 
 I was back on Sunday evening with a bag full of inspiration. Additionally to running a minimal version of the projection mapping with the Raspberry Pi workshop I joined lectures and learned basics of GLSL shader language as well as did functional programming experiments with C++.
-
-On Monday we worked on the plan for the final show on August 4 in the morning. Then we went for a walk to do another review on the possible locations. This is when my conceptual part of the brain started to spin. I remembered about my past ideas of organising a workshop week to build objects from space. They would appear at random locations in certain areas, such as Roja. I would do a series of fictional interviews with the locals about what happened.
-
-During the meeting we also decided to make an on-line event page. Everybody was invited to share teasers on their work. I got an idea to make a short video to introduce the idea of the alien object. Rumours have to be represented first. There has to be dynamic music in the background. A voice-over telling the story. Will see if I get that far as there is not so much time left.
 
 ## Battery Test
 
@@ -77,6 +75,8 @@ After I came back from a walk the projector was off. After reading the log file,
 ![](../media/roja-art-lab-2018/pump-battery.jpg)
 
 The problem here was that I did not know if the battery is full. I got a car battery charger to charge it during the night in order to try out one more time the next day. The specification of the one I got told me it will take approximately 40 hours to achieve 80% charge.
+
+Later I bought a cheap charger and the estimated charge time for the 14AH battery was 40 hours. I did try to charge it, but did not readh a full charge untill the end of my stay. Thus I did not use the battery at the end as it was possible to get electricity from the grid at the location where I presented my work.
 
 ## Data
 
@@ -112,37 +112,49 @@ Above you can see a video of a test that I did before the show day. One thing th
 
 ## Location
 
-Throughout the day the plan for the last day built itself. I decided to set up the object in 3 different locations. One of them would be at the Roja Info Centre, the other at the former fish-related hangar at the sea and the third one near to the Roja Art Lab main venue. I would use power supply from the battery to drive the equipment at the hangar place. It is still charging, but expectations are high.
+Throughout the day the plan for the last day built itself. I decided to set up the object in 3 different locations. One of them would be at the Roja Info Centre, the other at the former fish-related hangar at the sea and the third one near to the Roja Art Lab main venue. I would use power supply from the battery to drive the equipment at the hangar place. 
 
 <video width="800" height="450" loop controls>
   <source src="../media/roja-art-lab-2018/hangar.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
-Above you can see a video from within the former fish production hangar at the sea. I decided to put a video loop here since it contributes much more to the mood of being lost somewhere in the zone.
+Above you can see a video from within the former fish production hangar at the sea. I decided to put a video loop here since it contributes much more to the mood of being lost somewhere in the zone. At the end I did not use it as my main location, but I placed a copy of the object there.
 
+## Concept
 
-[EN]
+I decided to call it the Roadside Object which was partly inspired by a science fiction novel by Arkady and Boris Strugatsky with the name the Roadside Picnic, written in 1971. The story is about locations on earth that have been visited by alien life form and the fact that they left trash that would drive scientific research on earth.
 
-## Roadside Object
+> Someone else have visited Roja to leave it. It is not known whether there was a reason for the visitation, but if examined closely, one can notice patterns that reveal data structures about the amount of collected income tax from the inhabitants of Roja and how it relates to expenses towards education and religion by the local government.
 
-Someone else have visited Roja to leave it. It is not known whether there was a reason for the visitation, but if examined closely, one can notice patterns that reveal data structures about the amount of collected income tax from the inhabitants of Roja and how it relates to expenses towards education and religion by the local government.
+> Since recently citizens of Latvia have access to open data related to their own country. Data sets cover areas such as health, energy, culture, science and more. It can be accessible through the internet via the address data.gov.lv. This installation is an artistic data exploration with the intention to motivate to review personal methods of forming an opinion and an invitation to take a look at ourselves from far above.
 
-Since recently citizens of Latvia have access to open data related to their own country. Data sets cover areas such as health, energy, culture, science and more. It can be accessible through the internet via the address data.gov.lv. This installation is an artistic data exploration with the intention to motivate to review personal methods of forming an opinion and an invitation to take a look at ourselves from far above.
+> The author, Krisjanis Rijnieks, is a new media artist who explores the possibilities of the modern day media and fabrication technology to create potentially thought-provoking artefacts to penetrate mindsets prone to hatred rooted in grim perception of subjectively-declared absolute truth. 
 
-The author, Krisjanis Rijnieks, is a new media artist who explores the possibilities of the modern day media and fabrication technology to create potentially thought-provoking artefacts to penetrate mindsets prone to hatred rooted in grim perception of subjectively-declared absolute truth. 
+## Result
 
-[LV]
+The hardest par was to decide how should the projection part of the piece look like. Since I chose three parameters from the data sets found (Income tax, expenses towards education and religion) it seemed like the number of visual objects should be three as well. 
 
-## Objekts ceļmalā
+I went with three circles that would change their radius according to the data. I also added text that was showing the change of data in real time. The choice of such a simple geometric shape seemed right because of the interplay between the geometric object and the wild background seemed interesting for me.
 
-Kāds cits apmeklēja Roju, lai to šeit atstātu. Nav zināms vai vizītei bija iemesls, bet veicot detalizētāku izpēti, var redzēt pazīmes, kas atklāj datu struktūras par no Rojas iedzīvotājiem iekasēto ienākuma nodokļa apjomu un kā tas mijiedarbojas ar vietējās pašvaldības tēriņiem izglītībai un reliģijai.
+I increased the speed of time and turned 9 years into seconds. Interpolation was necessary inbetween the years to increase the feel of the data changing. The movement had to be smooth. Below you can see a video of how the final result looks like.
 
-Jau kādu laiku Latvijas iedzīvotājiem ir pieejami atvērtie dati par savu valsti. Datu kopas aptver tādas jomas kā veselība, enerģija, kultūra, zinātne un citas. Šiem datiem var piekļūt izmantojot internetu un adresi data.gov.lv. Šī instalacija ir mākslinieciska atrasto datu izpēte. Tās mērķis ir motivēt veikt personīgo viedokļa veidošanas metožu revīziju kā arī aicinājums paskatīties uz mums pašiem no tālas augšas.
+<video width="800" height="450" loop controls>
+  <source src="../media/roja-art-lab-2018/roadside-object-final.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
 
-Autors, Krišjānis Rijnieks, ir jauno mediju mākslinieks, kurš pēta mūsdienu mediju un ražošanas iespējas, lai radītu potenciāli domas provocējošus artefaktus pārāk nopientas pašpasludinātas patiesības ietekmēta un naidā marinēta domāšanas veida caururbšanai.
+It might be interesting to some to know exactly how the data is mapped to the movement. For those there are good news since all code is available on GitHub. The [rojaLabApp repository](https://github.com/kr15h/rojaLabApp) contains an openFrameworks application with projection mapping capabilities to be reused, improved or reinterpreted for another context.
 
-## Resources
+## Conclusions
 
-http://profizgl.lu.lv/mod/book/tool/print/index.php?id=16790#ch3364
+I have not been to many artist residencies. The last one was a [maker residency at the Chester Beatty Library in Dublin](http://mir.rijnieks.com/). Also there I did a data-driven projection mapping installation by using open source software and almost open hardware. 
+
+This time I went for Roja as I wanted to visit my home country and spend some time in one of the most beautiful parts of it. The fact that I would meet other international artists was very motivating. The challenge of deciding the direction of data research at the location was inspiring. Combining that with my projection mapping experience would be the next step for me. 
+
+Two weeks is not a long time to produce a piece, but that can also work as a motivator. In my case I had some things that were ready with me. I had my own equipment and parts from earlier projects that I could reuse. Thus I had time to focus on the data, concept and visual part of the final piece. 
+
+There was enough time to solve the conceptual and visual part and I can say that I am sattisfied with the result and feedback from other residency participants and audience. On the practical level I would like to improve my rigging skills. Driving projectors of the grid would be my wish. Doing it for longer periods of time as a part of a permanent installation outdoors would be a long-term chalenge. 
+
+If I would not have my fabricated triangluar surfaces with me, I would have to make them by hand or it would be nice to have a portable CNC mill with me. Tooling and methods are an important part in the work I am trying to do. It would not be possible to make this in two weeks without my previous efforts during the past five years.
 

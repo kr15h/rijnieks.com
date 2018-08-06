@@ -164,12 +164,20 @@ header .social {
 	text-align: left;
 }
 
+footer {
+	margin-top: 40px;
+}
+
 footer .social {
 	text-align: center;
 }
 
 .projects {
 	margin-bottom: 50px;
+}
+
+.projects-list div.hr:last-child{
+	display: none;
 }
 
 .projects-item {
