@@ -16,7 +16,7 @@ I arrived in Roja on Sunday, July 22. First thing was to visit the Roja Art Lab 
 
 I met a part of other artists that came here for the residency. After a brief small talk it was clear that there may be many options for possible collaboration. After a longer conversation during the opening barbecue, I realized that the plan for most of the participants is to do research during the first week and practical work for the rest of the time.
 
-The list of artists includes [Enrique Roura](http://enriqueroura.com), [Karla Kracht](http://karlakracht.com/), [Karla Brunet](http://karlabru.net/), Darren Ray, [Andy Webster](https://andy-webster.format.com/), [Anthony Stellaccio](http://keramikazi.blogspot.com/), [Ilze Black and Shu Lea Cheang as a part of Take2030](http://take2030.net/) as well as [Agata Engelman](http://agataengelman.com/).
+The list of artists includes [Enrique Roura](http://enriqueroura.com), [Karla Kracht](http://karlakracht.com/), [Karla Brunet](http://karlabru.net/), [Darren Ray](https://www.darrenray.co.uk/), [Andy Webster](https://andy-webster.format.com/), [Anthony Stellaccio](http://keramikazi.blogspot.com/), [Ilze Black and Shu Lea Cheang as a part of Take2030](http://take2030.net/) as well as [Agata Engelman](http://agataengelman.com/).
 
 On Monday we met at 12:30 to visit the mayor of Roja–Eva Kārkliņa. We introduced ourselves and could explore the available rooms in the building of the Roja district council office. After lunch we traveled to see the seaside at Melnsils  and the White Dune in Ģipka, all North-West from Roja. Meanwhile Māris showed us the artworks done by participants of previous Roja Art Lab activities.
 
