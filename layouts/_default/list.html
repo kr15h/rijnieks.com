@@ -38,7 +38,7 @@
             <h2>Past Articles</h2>
             <ul>
                 {{ with .Site.GetPage "section" "blog" }}
-                {{ range after 1 .Pages }}
+                {{ range .Pages }}
                     <li>
                         <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
                         <p class="time">{{ .Date.Format "2 Jan 2006" }}</p>
