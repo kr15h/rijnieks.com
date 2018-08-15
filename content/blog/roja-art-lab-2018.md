@@ -162,3 +162,6 @@ There was enough time to solve the conceptual and visual part and I can say that
 
 If I would not have my fabricated triangluar surfaces with me, I would have to make them by hand or it would be nice to have a portable CNC mill with me. Tooling and methods are an important part in the work I am trying to do. It would not be possible to make this in two weeks without my previous efforts during the past five years.
 
+## Support
+
+This project has received support from the [State Culture Capital Foundation of Latvia](http://vkkf.lv/index/english.html). Thank you!
