@@ -5,8 +5,9 @@ title = "Krisjanis Rijnieks"
 [params]
   subtitle = "Creative Coding. Projection Mapping. Solutions"
   author = "Krisjanis Rijnieks"
-  description = "The online presence of creative technologist and artist Krisjanis Rijnieks"
-  keywords = ["creative coding", "projection mapping", "raspberry pi", "video mapping", "programming", "installations", "multimedia", "interaction", "design", "electronics", "prototyping", "fab lab", "maker", "artist", "designer", "developer"]
+  description = "The online presence of artist and maker Krisjanis Rijnieks"
+  keywords = ["creative coding", "projection mapping", "raspberry pi", "video mapping", "programming", "installations", "multimedia", "interaction", "design", "electronics", "prototyping", "fab lab", "maker", "artist", "designer", "developer", "lasershow", "lasers", "diy", "openframeworks", "ofxpimapper", "augmented reality", "digital fabrication"]
+  tags = ["projectionmapping", "videomapping", "creativecoding", "digitalfabrication", "lasers", "interactive", "augmentedreality", "raspberrypi", "openframeworks", "interactiveinstallation", "electronics", "diy", "fablab", "makerspace", "hackerspace", "lasershow"]
   social = [
     {title="Krisjanis Rijnieks on GitHub", url="https://github.com/kr15h", icon="fa-github"}, 
     {title="Krisjanis Rijnieks on Instagram", url="https://www.instagram.com/kriwkrow", icon="fa-instagram"},

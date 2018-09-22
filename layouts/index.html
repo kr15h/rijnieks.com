@@ -14,6 +14,12 @@
 		{{ .Content }}
 	</div>
 
+	<div class="tags">
+		{{ range .Site.Params.Tags }}
+			<a href="https://www.instagram.com/explore/tags/{{ . }}" target="_blank" title="In case you wonder what it is...">#{{ . }}</a>&nbsp;
+		{{ end }}
+	</div>
+
 	<div class="projects">
 		
 		<h2>Projects</h2>

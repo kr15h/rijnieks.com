@@ -2,14 +2,14 @@
 
 html, body {
 	width: 100%;
+	font-size: 18px;
+	line-height: 1.4;
 }
 
 body {
 	background: #010101;
 	padding:0;
 	font-family: 'Roboto', sans-serif;
-	font-size: 18px;
-	line-height: 1.4;
 	color: #cccccc;
 	margin-top: 50px;
 }
@@ -131,7 +131,13 @@ p.subtitle{
 }
 
 .introduction {
+	margin-bottom: 15px;
+}
+
+.tags {
 	margin-bottom: 50px;
+	font-size: 0.75rem;
+	line-height: 1.6;
 }
 
 .social {

@@ -15,3 +15,13 @@ body {
 .projects-item {
     page-break-after: always;
 }
+
+.projects-item .description a {
+    border: none;
+    font-size: 0.5rem;
+    padding: 0;
+}
+
+.tags {
+    display: none;
+}
