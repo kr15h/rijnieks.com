@@ -4,6 +4,7 @@
 	<title>{{ .Site.Title }} :: {{ .Site.Params.subtitle }}</title>
 	{{ partial "head/meta.html" . }}
 	{{ partial "head/css.html" . }}
+	{{ partial "head/js.html" . }}
 </head>
 <body>
 
@@ -40,6 +41,8 @@
 
 	{{ partial "footer.html" . }}
 </div>
+
+<script src="js/main.js"></script>
 
 </body>
 </html>
