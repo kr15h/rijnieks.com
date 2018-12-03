@@ -9,4 +9,4 @@ weight: 3
 callToAction: "Watch video"
 ---
 
-Interactive 3D projection and GIF generator controlled through a web app for the 100 year anniversary of Latvia. Collaboration with vuca.lv and brandbox.digital
+Interactive 3D projection and GIF generator controlled through a web application for the 100 year anniversary of Latvia. Collaboration with vuca.lv and brandbox.digital
