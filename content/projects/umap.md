@@ -5,7 +5,7 @@ draft: false
 short: "Prototype of a projection mapping media player uMap during Fab Academy course at Fab Lab Barcelona."
 image: "/images/projects/umap.jpg"
 link: "https://youtu.be/Z6raXDFZMsw"
-weight: 4
+weight: 140
 callToAction: "Watch video"
 ---
 

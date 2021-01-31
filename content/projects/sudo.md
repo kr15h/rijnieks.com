@@ -5,7 +5,7 @@ draft: false
 short: "Audiovisual laser dance performance built on top of a Raspberry-Pi-camera-based motion tracking system. Collaboration with Yuri Shimaoka. Summer 2016."
 image: "/images/projects/sudo.jpg"
 link: "https://youtu.be/bDkUWHG0uTw"
-weight: 40
+weight: 80
 callToAction: "Watch video"
 ---
 

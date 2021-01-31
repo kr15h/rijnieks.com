@@ -5,7 +5,7 @@ draft: false
 short: "Interactive Kinect-based projection and sound installation during the first year of studies at the Media Lab Helsinki. September 2012"
 image: "/images/projects/louie.jpg"
 link: "https://vimeo.com/49452932"
-weight: 100
+weight: 20
 callToAction: "Watch video"
 ---
 

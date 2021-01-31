@@ -5,7 +5,7 @@ draft: false
 short: "Audiovisual mapping installation / audiovisual performance in collaboration with Irina Spicaka and Platon Buravicky."
 image: "/images/projects/metasphere.jpg"
 link: "https://youtu.be/iiFX11KyS44"
-weight: 90
+weight: 30
 callToAction: "Watch video"
 ---
 

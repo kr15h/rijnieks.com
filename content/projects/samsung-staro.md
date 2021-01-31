@@ -5,7 +5,7 @@ draft: false
 short: "Interactive 3D projection and GIF generator controlled through a web app for the 100 year anniversary of Latvia. Collaboration with vuca.lv and brandbox.digital"
 image: "/images/projects/samsung-staro.jpg"
 link: "https://youtu.be/L3FiNyk6elc"
-weight: 3
+weight: 150
 callToAction: "Watch video"
 ---
 

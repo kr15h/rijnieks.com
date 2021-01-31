@@ -22,13 +22,13 @@
 	</div>
 
 	<div class="projects">
-		
+
 		<h2>Projects</h2>
 
 		<div class="projects-list">
 			{{ range .Site.Sections }}
 				{{ if eq .Type "projects" }}
-					{{ range .Pages }}
+					{{ range sort .Pages ".Weight" "desc" }}
 						{{ partial "project.html" . }}
 						{{ if .Next }}
 							<div class="hr"></div>

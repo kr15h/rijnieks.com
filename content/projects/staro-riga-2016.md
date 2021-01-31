@@ -5,7 +5,7 @@ draft: false
 short: "Data-driven projection mapping installation during the annual Staro Riga light festival in Riga, Latvia. November 2016."
 image: "/images/projects/staro-riga-2016.jpg"
 link: "https://youtu.be/k-BNAsBZ7ko"
-weight: 30
+weight: 90
 callToAction: "Watch video"
 ---
 

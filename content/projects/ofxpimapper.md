@@ -5,7 +5,7 @@ draft: false
 short: "Projection mapping addon for openFrameworks, optimized for the Raspberry Pi. You don't have to leave your Mac at the exhibition space for a month anymore."
 image: "/images/projects/ofxpimapper.jpg"
 link: "https://github.com/kr15h/ofxPiMapper"
-weight: 70
+weight: 50
 callToAction: "Learn more"
 ---
 

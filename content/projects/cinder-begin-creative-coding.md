@@ -5,7 +5,7 @@ draft: false
 short: "A introductory book about one of the most powerful open-source C++ creative coding frameworks available on the internet."
 image: "/images/projects/cinder-begin-creative-coding.jpg"
 link: "http://www.packtpub.com/begin-creative-coding-with-cinder/book"
-weight: 110
+weight: 10
 callToAction: "Learn more"
 ---
 
