@@ -6,7 +6,7 @@ short: "Circuit Breaker is a networked participated installation that critiques 
 image: "/images/projects/circuit-breaker.jpg"
 link: "https://circuitbreaker.info"
 weight: 160
-callToAction: "Project website"
+callToAction: "Website"
 ---
 
 Circuit Breaker is a networked participated installation that critiques the culture of constant connectivity. Creative code, electronics and project website. Collaboration with Samir Bhowmik.
