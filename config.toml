@@ -3,13 +3,13 @@ languageCode = "en-us"
 title = "Krisjanis Rijnieks"
 
 [params]
-  subtitle = "Creative Coding. Projection Mapping. Solutions"
+  subtitle = "Creative Coding. Projection Mapping. Digital Fabrication"
   author = "Krisjanis Rijnieks"
-  description = "The online presence of artist and maker Krisjanis Rijnieks"
+  description = "The online presence of media artist and maker Krisjanis Rijnieks"
   keywords = ["creative coding", "projection mapping", "raspberry pi", "video mapping", "programming", "installations", "multimedia", "interaction", "design", "electronics", "prototyping", "fab lab", "maker", "artist", "designer", "developer", "lasershow", "lasers", "diy", "openframeworks", "ofxpimapper", "augmented reality", "digital fabrication"]
   tags = ["projectionmapping", "videomapping", "creativecoding", "digitalfabrication", "lasers", "interactive", "augmentedreality", "raspberrypi", "openframeworks", "interactiveinstallation", "electronics", "diy", "fablab", "makerspace", "hackerspace", "lasershow"]
   social = [
-    {title="Krisjanis Rijnieks on GitHub", url="https://github.com/kr15h", icon="fa-github"}, 
+    {title="Krisjanis Rijnieks on GitHub", url="https://github.com/kr15h", icon="fa-github"},
     {title="Krisjanis Rijnieks on Instagram", url="https://www.instagram.com/kriwkrow", icon="fa-instagram"},
     {title="Krisjanis Rijnieks on Twitter", url="https://twitter.com/kriwkrow", icon="fa-twitter"},
     {title="Krisjanis Rijnieks on LinkedIn", url="http://www.linkedin.com/in/krisjanisrijnieks", icon="fa-linkedin"}
