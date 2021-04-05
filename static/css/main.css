@@ -139,8 +139,8 @@ p.subtitle{
 	max-width: 768px;
 }
 
-.introduction {
-	margin-bottom: 15px;
+.introduction, .opensource {
+	margin-bottom: 3rem;
 }
 
 .tags {

@@ -15,10 +15,21 @@
 		{{ .Content }}
 	</div>
 
-	<div class="tags">
-		{{ range .Site.Params.Tags }}
-			<a href="https://www.instagram.com/explore/tags/{{ . }}" target="_blank" title="In case you wonder what it is...">#{{ . }}</a>&nbsp;
-		{{ end }}
+	<div class="opensource">
+
+		<h2>Open Source</h2>
+
+		<p>Here you can find a list of my open source projects. These are either experiments or tools that I have built to support my art, design and teaching practice. I have came up with the idea to publish a summary of them here recently and there is still work to be done to be able to add more items to the list.</p>
+
+		<ul>
+			<li><a href="https://ofxpimapper.com">Pi Mapper</a><br>
+			    Projection mapping software for the Raspberry Pi</li>
+			<li><a href="https://kriwkrow.gitlab.io/pivlc/">PiVLC</a><br>
+			    Turn your Pi into 4K media player</li>
+			<li><a href="https://gitlab.com/kriwkrow/stepstick-shield/">Stepstick Shield</a><br>
+			    Fabbable Arduino shield for single stepper control</li>
+		</ul>
+
 	</div>
 
 	<div class="projects">
