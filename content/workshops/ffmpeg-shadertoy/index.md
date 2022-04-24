@@ -25,8 +25,6 @@ Participants are expected to have basic understanding of producing their own vid
 
 Detailed workshop description to be published here soon.
 
-{{<code>}}
-cat /etc/workshop
+{{<code lang="bash">}}cat /etc/workshop
 touch inline.txt
-ffmpeg -i video.mov video.mp4
-{{</code>}}
+ffmpeg -i video.mov video.mp4{{</code>}}
