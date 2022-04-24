@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+
+    <title>{{ .Title }}</title>
+    {{ partial "head/meta.html" . }}
+    {{ partial "head/css.html" . }}
+
+    <meta property="og:url" content="{{ .Permalink }}">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="{{ .Title }}">
+    <meta property="og:description" content="{{ .Description }}">
+    <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.Image }}">
+
+</head>
+
+<body>
+<div class="container">
+    <main>
+        <h1>{{ .Title }}</h1>
+        <div class="meta">
+          <p class="Date">Published: {{ .Date.Format "2 Jan 2006" }}</p>
+          <p>License: <a href="{{ .Params.License.Link }}" target="_blank">{{ .Params.License.Name }}</a></p>
+        </div>
+        {{ .Content }}
+    </main>
+
+    {{ partial "footer.html" . }}
+</div>
+
+{{ partial "foot/js.html" . }}
+</body>
+</html>

@@ -1,6 +1,11 @@
 +++
 title = "Using Shaders as Video Filters with Shadertoy and FFmpeg"
 date = "2022-04-24T12:00:00+03:00"
+type = "workshop"
+
+[license]
+name = "CC BY-NC-SA 4.0"
+link = "https://creativecommons.org/licenses/by-nc-sa/4.0/"
 +++
 
 {{<video src="media/ffmpeg-shadertoy_1080.mp4" poster="media/ffmpeg-shadertoy_1080.jpg">}}

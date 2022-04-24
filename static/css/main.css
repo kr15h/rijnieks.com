@@ -232,3 +232,15 @@ pre {
   color: #cccccc;
 	border: none;
 }
+
+.meta {
+	margin-bottom: 1rem;
+	font-size: 0.75rem;
+	padding: 0.5rem;
+	border-bottom: 1px dotted #aaaaaa;
+	border-top: 1px dotted #aaaaaa;
+}
+
+.meta p {
+	margin: 0;
+}
