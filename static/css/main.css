@@ -91,9 +91,10 @@ a.btn-primary:focus:hover {
 	border-bottom: 1px solid #aaaaaa;
 }
 
-img, video {
+img, video, .video-fallback {
 	width: 100%;
 	height: auto;
+	margin-bottom: 1rem;
 }
 
 header {
@@ -205,4 +206,15 @@ footer .social {
 	line-height: 0;
 	letter-spacing: 0;
 	padding-bottom: 15px;
+}
+
+.code {
+	position: relative;
+}
+
+.code button {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	color: black;
 }
