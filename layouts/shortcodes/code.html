@@ -1,11 +1,8 @@
 {{ $seed := "foo" }}
 {{ $random := delimit (shuffle (split (md5 $seed) "" )) "" }}
-
 <div class="code">
-<pre id="{{ $random }}">{{ .Inner }}</pre>
-
-<!-- Trigger -->
-<button class="clipboard" data-clipboard-target="#{{ $random }}">
-  <i class="fa fa-copy"></i>
-</button>
+  <pre><code class="language-{{ .Get `lang` }}" id="{{ $random }}">{{ .Inner }}</code></pre>
+  <button class="clipboard" data-clipboard-target="#{{ $random }}">
+    <i class="fa fa-copy"></i>
+  </button>
 </div>

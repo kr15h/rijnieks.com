@@ -188,6 +188,12 @@ footer .social {
 	text-align: center;
 }
 
+pre {
+	padding: 0 !important;
+	border: 0;
+	border-radius: 0;
+}
+
 .projects {
 	margin-bottom: 50px;
 }
@@ -212,9 +218,17 @@ footer .social {
 	position: relative;
 }
 
-.code button {
+.code button,
+.code button:active,
+.code button:focus {
 	position: absolute;
 	top: 5px;
 	right: 5px;
 	color: black;
+	border-radius: 0;
+	box-shadow: 0;
+
+	background: transparent;
+  color: #cccccc;
+	border: none;
 }
