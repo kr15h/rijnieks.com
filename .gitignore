@@ -2,3 +2,4 @@
 concept.txt
 res
 images/*.ai
+.hugo_build.lock
