@@ -39,8 +39,16 @@ Basic knowledge of shell scripting is recommended as we will mostly explore ways
 
 ## Workshop
 
-Detailed workshop description to be published here soon.
+It is a 3 day workshop. There is a clear goal for every day of it.
 
-{{<code lang="bash">}}cat /etc/workshop
-touch inline.txt
-ffmpeg -i video.mov video.mp4{{</code>}}
+### Day 1
+
+We are going to set up our Linux systems with a custom version of FFmpeg that accepts Shadertoy GLSL code input. Go to the [ffmpeg_shadertoy_filter](https://gitlab.com/kriwkrow/ffmpeg_shadertoy_filter) GitLab repository and follow the instructions.
+
+### Day 2
+
+Fins all the good shaders you can on [Shadertoy](https://www.shadertoy.com/results?query=&sort=hot&filter=webcam). Apply them to short video clips of yours using your custom-compiled version of FFmpeg.
+
+### Day 3
+
+Setting up the show. We will make several video loops, media players and projectors.
