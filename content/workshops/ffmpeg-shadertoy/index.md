@@ -49,6 +49,18 @@ We are going to set up our Linux systems with a custom version of FFmpeg that ac
 
 Fins all the good shaders you can on [Shadertoy](https://www.shadertoy.com/results?query=&sort=hot&filter=webcam). Apply them to short video clips of yours using your custom-compiled version of FFmpeg. If you do not have or want to have your own videos, you can download a [pack of videos from here](https://www.dropbox.com/sh/gin4o4jok4n9huf/AADQ-to5oiJaFUQeqTPIfZqsa?dl=0). You can use the [FFmpeg H.264 encoding guide](https://trac.ffmpeg.org/wiki/Encode/H.264) to gain better understanding how H.264 video encoding works and how to use it for your benefit. You can see how to use ffmpeg to cut short clips from a longer video in [this SuperUser post](https://superuser.com/questions/138331/using-ffmpeg-to-cut-up-video).
 
+You can use this example to cut a short clip out of your longer video. Here the `-ss` defines the start of cut and `-to` defines the end. You can also use `-t` to specify how long the cut should be. The HH:MM:SS format needs to be used for time values.
+
+{{<code>}}./ffmpeg -i INPUT.MP4 -ss 00:00:15 -to 00:00:25 -c:v copy -c:a aac OUTPUT.MP4{{</code>}}
+
+To reduce the size of the video you can encode using the example below. The -crf value is the key here - the higher the number the less the quality and file size.
+
+{{<code>}}./ffmpeg -i INPUT.MP4 -c:v libx264 -crf 30 -preset slow -c:a copy -f mp4 OUTPUT.MP4{{</code>}}
+
+You may also want to reduce audio sampling rate and bit-rate, but that does not affect the file size as much as the -crf value of the H.264 encoder. `-c:a`, `-a:r` and `-b:a` parameters are the key here.
+
+{{<code>}}./ffmpeg -i INPUT.MP4 -c:v libx264 -crf 30 -preset slow -c:a aac -ar 44100 -b:a 128k -f mp4 OUTPUT.MP4{{</code>}}
+
 ### Day 3
 
 Setting up the show. We will make several video loops, media players and projectors.
