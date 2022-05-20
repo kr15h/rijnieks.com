@@ -47,7 +47,7 @@ We are going to set up our Linux systems with a custom version of FFmpeg that ac
 
 ### Day 2
 
-Fins all the good shaders you can on [Shadertoy](https://www.shadertoy.com/results?query=&sort=hot&filter=webcam). Apply them to short video clips of yours using your custom-compiled version of FFmpeg. If you do not have or want to have your own videos, you can download a [pack of videos from here](https://www.dropbox.com/sh/gin4o4jok4n9huf/AADQ-to5oiJaFUQeqTPIfZqsa?dl=0). You can use the [FFmpeg H.264 encoding guide](https://trac.ffmpeg.org/wiki/Encode/H.264) to gain better understanding how H.264 video encoding works and how to use it for your benefit.
+Fins all the good shaders you can on [Shadertoy](https://www.shadertoy.com/results?query=&sort=hot&filter=webcam). Apply them to short video clips of yours using your custom-compiled version of FFmpeg. If you do not have or want to have your own videos, you can download a [pack of videos from here](https://www.dropbox.com/sh/gin4o4jok4n9huf/AADQ-to5oiJaFUQeqTPIfZqsa?dl=0). You can use the [FFmpeg H.264 encoding guide](https://trac.ffmpeg.org/wiki/Encode/H.264) to gain better understanding how H.264 video encoding works and how to use it for your benefit. You can see how to use ffmpeg to cut short clips from a longer video in [this SuperUser post](https://superuser.com/questions/138331/using-ffmpeg-to-cut-up-video).
 
 ### Day 3
 
