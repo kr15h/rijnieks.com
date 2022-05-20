@@ -47,7 +47,7 @@ We are going to set up our Linux systems with a custom version of FFmpeg that ac
 
 ### Day 2
 
-Fins all the good shaders you can on [Shadertoy](https://www.shadertoy.com/results?query=&sort=hot&filter=webcam). Apply them to short video clips of yours using your custom-compiled version of FFmpeg.
+Fins all the good shaders you can on [Shadertoy](https://www.shadertoy.com/results?query=&sort=hot&filter=webcam). Apply them to short video clips of yours using your custom-compiled version of FFmpeg. If you do not have or want to have your own videos, you can download a [pack of videos from here](https://www.dropbox.com/sh/gin4o4jok4n9huf/AADQ-to5oiJaFUQeqTPIfZqsa?dl=0).
 
 ### Day 3
 
